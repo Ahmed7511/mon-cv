@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('SinkinSans-400Regular-webfont.eot');
+    src: url('SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SinkinSans-400Regular-webfont.woff2') format('woff2'),
+         url('SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }
+   body
+   {
+       margin: 0px ;
+       width: 100%;
+       font-family: "sikinSans" , serif;
+   }
+#bloc_page
+{
+    display: flex;
+}                                                          
+#perso
+{
+    width: 25%;
+    background-color: rgb(255, 201,14);
+   height: auto;
+}   
+#perso p
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#perso h1
+{
+    color: rgb(255, 201,14);
+    background-color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.ma_photo
+{
+    text-align: center;
+}
+.ma_photo>img
+{ 
+    transform: scale(0.5);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);  
+    margin: auto;
+    width: 200px;
+ }
+ 
+a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+a:visited
+{
+    color: #aaa;
+}
+.apropos
+{
+    padding-bottom: 60px;
+}
+#icons
+{
+    display: flex;
+    justify-content: space-around;
+}
+.logo_border
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+#info
+{   
+    width: auto;
+    padding-left: 30px;
+}
+.element
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.text
+{
+    margin: 2px;
+    max-width: 300px;
+}
+.recommandation
+{
+    display: flex;
+}
+em
+{
+    margin-right: 15px;
+    color: rgb(255, 201,14);
+}
+span
+{
+    border-bottom:1px solid rgb(255, 201,14);
+}
+aside h1
+{
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+article h1
+{
+    border-bottom:2px solid rgb(255, 201,14);
+    text-transform: uppercase;
+}
+ul 
+{
+    list-style-type: none;
+}
+
+@media screen and (max-width:1000px)
+{
+   
+    #bloc_page
+    {
+        flex-direction: column-reverse;
+        width: auto;
+    }
+    .ma_photo
+    {
+        display: none;
+    }
+    #perso
+    {
+        width: auto;
+        background-color:rgb(255, 201,14);
+    }
+    #perso h1
+    {
+        color:rgb(255, 201,14);
+        margin-top: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #perso p
+    {
+        flex-wrap: wrap ;
+        padding-left: 10px;
+    }
+    #info 
+    {
+        padding-right: 0px;
+        padding-left: 0px ;
+    } 
+    aside 
+    {
+        background-color: #ffffff;
+    }
+    article h1   
+   {
+       width: auto;
+       color: black;
+       background-color: rgb(255, 201,14);
+       text-align: center;      
+   }
+   .element
+   {
+        display: block;
+        font-weight: bold;
+    }
+    
+    .text
+    {
+        font-weight: normal;
+        max-width: 100%;
+    }
+   .recommandation
+   {
+       display: block;
+   }
+   ul 
+   {
+       padding: 10px;
+   }
+   .element em 
+   {
+       display: none;
+   }
+    a
+    {
+      font-size: smaller;   
+    }
+    #icons
+    {
+        font-size: medium;
+    }
+} 
