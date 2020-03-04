@@ -20,7 +20,9 @@
     display: flex;
 }                                                          
 #perso
-{
+{ 
+    display: flex;
+    flex-direction: column;
     width: 25%;
     background-color: rgb(255, 201,14);
    height: auto;
@@ -63,7 +65,7 @@ a:visited
 }
 .apropos
 {
-    padding-bottom: 60px;
+    flex-grow: 1;
 }
 #icons
 {
