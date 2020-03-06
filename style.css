@@ -55,7 +55,7 @@
  }
  a
  {
-     font-size: smaller;
+    overflow-wrap: break-word;
  }
 a:hover
 {
