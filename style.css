@@ -53,11 +53,14 @@
     margin: auto;
     width: 200px;
  }
- 
+ a
+ {
+     font-size: smaller;
+ }
 a:hover
 {
     text-decoration: underline;
-    color: red;
+    color: rgb(0, 89, 255);
 }
 a:visited
 {
@@ -191,10 +194,6 @@ ul
    {
        display: none;
    }
-    a
-    {
-      font-size: smaller;   
-    }
     #icons
     {
         font-size: medium;
