@@ -87,6 +87,26 @@ a:visited
     width: auto;
     padding-left: 30px;
 }
+#info h1
+{
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+#info h2
+{
+    border-bottom:2px solid rgb(255, 201,14);
+    text-transform: uppercase;
+}
+span
+{
+    border-bottom:1px solid rgb(255, 201,14);
+}
+em
+{
+    margin-right: 15px;
+    color: rgb(255, 201,14);
+}
 .element
 {
     display: flex;
@@ -101,26 +121,6 @@ a:visited
 .recommandations
 {
     display: flex;
-}
-em
-{
-    margin-right: 15px;
-    color: rgb(255, 201,14);
-}
-span
-{
-    border-bottom:1px solid rgb(255, 201,14);
-}
-aside h1
-{
-    padding-top: 30px;
-    font-size: xx-large;
-}
-
-article h1
-{
-    border-bottom:2px solid rgb(255, 201,14);
-    text-transform: uppercase;
 }
 ul 
 {
@@ -152,12 +152,16 @@ ul
     {
         padding-left: 10px;
     }
+    #icons
+    {
+        font-size: medium;
+    }
     #info 
     {
         padding-right: 0px;
         padding-left: 0px ;
     } 
-    article h1   
+    #info h2   
    {
        color: black;
        background-color: rgb(255, 201,14);
@@ -186,8 +190,5 @@ ul
    {
        display: none;
    }
-    #icons
-    {
-        font-size: medium;
-    }
+    
 } 
